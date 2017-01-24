@@ -52,7 +52,7 @@ class UnicodeUpper < Generic
       "TA" +                  # push esp, NOP
       "XA" +                  # pop eax, NOP
       "ZA" +                  # pop edx, NOP
-      "PU" +                  # push eax, NOP
+      "PA" +                  # push eax, NOP
       "3" +                   # xor eax, [eax]
       "QA" +                  # push ecx, NOP
       "DA" +                  # inc esp, NOP

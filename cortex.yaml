@@ -1,0 +1,16 @@
+---
+info:
+  title: Rex Encoder
+  description: Rex library providing the basis for all of the polymorphic encoders
+    that Metasploit uses for payload encoding
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/rex-encoder
+  x-cortex-tag: rex-encoder
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: metasploit
+openapi: 3.0.1
+servers:
+- url: "/"
